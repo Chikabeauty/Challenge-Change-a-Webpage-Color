@@ -1,0 +1,1 @@
+I created a function that changes the background color of a page to blue specifically, when the user clicks on the button, the onClick event handler calls a function. The function then executes the statement that changes the background color to blue
