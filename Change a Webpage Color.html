@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Background Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click the Button to Change Background Color</h1>
+    
+    <!-- Button to trigger background color change -->
+    <button onclick="changeBackgroundColor()">Change Background to Blue</button>
+
+    <script>
+        // Function to change the background color to blue
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = "blue";
+        }
+    </script>
+
+</body>
+</html>
